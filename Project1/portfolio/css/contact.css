@@ -41,7 +41,7 @@ nav a:hover {
 
 section {
     height:  92vh;
-    background: url('../img/1.jpg') no-repeat right center;
+    background: url('https://lalunashine.github.io/Codecademy_Projects/Project1/portfolio/img/1.JPG') no-repeat right center;
     background-size: cover;
     margin-bottom: 0;
 }

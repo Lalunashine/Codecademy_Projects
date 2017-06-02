@@ -41,9 +41,9 @@ nav a:hover {
 
 section {
     height:  92vh;
-    /* background: url('../img/1.jpg') no-repeat left center; */
-    background: url('https://lalunashine.github.io/Codecademy_Projects/Project1/portfolio/img/1.jpg') no-repeat left center; 
-    /* background: url('https://github.com/Lalunashine/Codecademy_Projects/blob/master/Project1/portfolio/img/1.JPG') no-repeat right center; */
+    background: url('../img/1.jpg') no-repeat left center;
+    background: url('https://lalunashine.github.io/Codecademy_Projects/Project1/portfolio/img/1.jpg') no-repeat left center;
+    /* background: url('https://www.github.com/Lalunashine/Codecademy_Projects/blob/master/Project1/portfolio/img/0.JPG') no-repeat left center; */
     background-size: cover;
     margin-bottom: 0;
 }

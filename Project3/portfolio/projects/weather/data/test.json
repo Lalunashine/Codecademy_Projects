@@ -1,0 +1,58 @@
+{
+  "cnt":4,
+  "list":[
+    { "coord":{"lon":-75.5,"lat":43},
+      "sys":{"type":1,"id":2131,"message":0.1883,"country":"US","sunrise":1480508015,"sunset":1480541315},
+      "weather":[
+        {"id":701,"main":"Mist","description":"mist","icon":"50n"},
+        {"id":741,"main":"Fog","description":"fog","icon":"50n"}
+      ],
+      "main":{"temp":5.95,"pressure":1011,"humidity":100,"temp_min":5,"temp_max":7},
+      "visibility":1207,
+      "wind":{"speed":1.51,"deg":221.005},
+      "clouds":{"all":90},
+      "dt":1480470360,
+      "id":5128638,
+      "name":"New York"
+    },
+    { "coord":{"lon":-50.6,"lat":-26.5},
+      "sys":{"message":0.164,"country":"BR","sunrise":1480580468,"sunset":1480629752},
+      "weather":[
+        {"id":800,"main":"Clear","description":"Sky is Clear","icon":"01n"}
+      ],
+      "main":{"temp":14.29,"temp_min":14.292,"temp_max":14.292,"pressure":935.68,"sea_level":1033.21,"grnd_level":935.68,"humidity":77},
+      "wind":{"speed":4.71,"deg":90.0036},
+      "clouds":{"all":0},
+      "dt":1480551444,
+      "id":3451220,
+      "name":"Rio da Areia"
+    },
+    { "coord":{"lon":13.41,"lat":52.52},
+      "sys":{"type":1,"id":4892,"message":0.1849,"country":"DE","sunrise":1480575343,"sunset":1480604144},
+      "weather":[
+        {"id":701,"main":"Mist","description":"mist","icon":"50n"},
+        {"id":500,"main":"Rain","description":"light rain","icon":"10n"}
+      ],
+      "main":{"temp":5,"pressure":1020,"humidity":93,"temp_min":5,"temp_max":5},
+      "visibility":4800,
+      "wind":{"speed":7.2,"deg":270},
+      "clouds":{"all":75},
+      "dt":1480551600,
+      "id":2950159,
+      "name":"Berlin"
+    },
+    { "coord":{"lon":116.4,"lat":39.92},
+      "sys":{"type":1,"id":7405,"message":0.163,"country":"CN","sunrise":1480461381,"sunset":1480495814},
+      "weather":[
+        {"id":701,"main":"Mist","description":"mist","icon":"50d"}
+      ],
+      "main":{"temp":3,"pressure":1025,"humidity":74,"temp_min":3,"temp_max":3},
+      "visibility":4000,
+      "wind":{"speed":1,"deg":0},
+      "clouds":{"all":0},
+      "dt":1480469400,
+      "id":2038349,
+      "name":"Beijing Shi"
+    }
+  ]
+}

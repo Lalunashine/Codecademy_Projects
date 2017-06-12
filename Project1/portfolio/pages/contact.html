@@ -7,11 +7,21 @@
     <!--<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">-->
     <link type="text/css" rel="stylesheet" href="../css/contact.css">
 </head>
+
 <body>
+
+<div id="slide"></div>
 <header class="container">
     <div class="row">
         <h3 class="col-sm-7">Lalunashine</h3>
         <nav class="col-sm-4">
+            <ul class="nav-icon">
+                <li>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </li>
+            </ul>
             <ul>
                 <a href="../index.html">
                     <li>home</li>
@@ -31,22 +41,22 @@
 </header>
 
 <section class="container">
-    <form>
+    <form method="post" action="contact.php">
         <div>
             <p></p>
-            <input type="text" id="name" placeholder="Your Name">
+            <input type="text" name="name" placeholder="Your Name">
         </div>
         <div>
             <p></p>
-            <input type="text" id="email" placeholder="Your Email">
+            <input type="text" name="email" placeholder="Your Email">
         </div>
         <div>
             <p></p>
-            <input type="text" id="subject" placeholder="Subject">
+            <input type="text" name="subject" placeholder="Subject">
         </div>
         <div>
             <p></p>
-            <textarea cols="50" rows="5" placeholder="Leave Your Message Here"></textarea>
+            <textarea name="message" cols="50" rows="5" placeholder="Leave Your Message Here..."></textarea>
         </div>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit">
@@ -66,5 +76,8 @@
     </div>
 </footer>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>

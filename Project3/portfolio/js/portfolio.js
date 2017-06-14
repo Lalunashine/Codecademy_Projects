@@ -53,6 +53,17 @@ var main = function() {
                 break;
         };
     });
+
+    $(".work div.col-sm-3").click(function() {
+        $(this).prev(".modal").dialog({
+            modal: true,
+            buttons: {
+                OK: function() {
+                    $(this).dialog("close");
+                }
+            }
+        });
+    });
 };
 
 $(document).ready(main);
